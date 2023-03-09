@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+}
+
+.btn-modern:hover {
+    transform: translateX(-5px);
+    box-shadow: 5px 3px 3px black;
+    background-color: blueviolet;
+    color: orange;
+    transition: 0.4s;
+}
